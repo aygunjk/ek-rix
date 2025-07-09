@@ -4,14 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Serdar & Aygün</title>
-  <!-- Font Awesome CDN -->
+  
+  <!-- Font Awesome 6.4 CDN -->
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-p0k5TT2+0ZP3t6R6r0wxzWYOLldbyReSg75aGkWjVn9LtJMjXTeRV4h5HUvMf0sFhmW0dF9Qek1Xn1h6z0P5aQ=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
+
   <style>
     * {
       margin: 0; padding: 0; box-sizing: border-box;
@@ -34,4 +35,14 @@
       background: white;
       border-radius: 20px;
       box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-      display:
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: default;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      user-select: none;
+    }
+    .icon-card:hover {
+      transform: translateY(-10px);
+      bo
